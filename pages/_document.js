@@ -15,8 +15,4 @@ class MyDocument extends Document {
   }
 }
 
-<<<<<<< HEAD
 export default MyDocument;
-=======
-export default MyDocument;
->>>>>>> blog-next-js
