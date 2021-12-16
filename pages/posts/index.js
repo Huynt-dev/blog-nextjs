@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Head from 'next/head';
 import { Fragment } from 'react';
 
@@ -16,6 +17,21 @@ function AllPostsPage(props) {
       </Head>
       <AllPosts posts={props.posts} />
     </Fragment>
+=======
+import Head from "next/head";
+import AllPosts from "../../components/posts/all-posts";
+import { getAllPosts } from "../../utils/posts-util";
+
+function AllPostsPage(props) {
+  return (
+    <>
+      <Head>
+        <title>All posts</title>
+        <meta name="description" content="A list all posts" />
+      </Head>
+      <AllPosts posts={props.posts} />
+    </>
+>>>>>>> blog-next-js
   );
 }
 
